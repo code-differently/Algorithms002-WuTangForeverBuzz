@@ -19,8 +19,18 @@ public class WuTangForeverBuzzTest {
     public void d3Test() {
         WuTangForeverBuzz wu = new WuTangForeverBuzz();
 
-        boolean expected = false;
-        boolean actual = wu.divisibleBy3(0);
+        boolean expected = true;
+        boolean actual = wu.divisibleBy3(15);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void d5Test() {
+        WuTangForeverBuzz wu = new WuTangForeverBuzz();
+
+        boolean expected = true;
+        boolean actual = wu.divisibleBy5(15);
 
         Assert.assertEquals(expected, actual);
     }
