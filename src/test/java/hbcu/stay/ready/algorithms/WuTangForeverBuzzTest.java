@@ -15,4 +15,37 @@ public class WuTangForeverBuzzTest {
 
         Assert.assertEquals(expected,actual);
     }
+
+    @Test
+    public void ifFactorofThreeFiveTest1(){
+        WuTangForeverBuzz wuTangForeverBuzz = new WuTangForeverBuzz();
+        int test = 12;
+
+        String expected = "Wu";
+        String actual = wuTangForeverBuzz.ifFactorofThreeFive(test);
+
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void ifFactorofThreeFiveTest2(){
+        WuTangForeverBuzz wuTangForeverBuzz = new WuTangForeverBuzz();
+        int test = 22;
+
+        String expected = "22";
+        String actual = wuTangForeverBuzz.ifFactorofThreeFive(test);
+
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void ifFactorofThreeFiveTest3(){
+        WuTangForeverBuzz wuTangForeverBuzz = new WuTangForeverBuzz();
+        int test = 30;
+
+        String expected = "WuTang Forever";
+        String actual = wuTangForeverBuzz.ifFactorofThreeFive(test);
+
+        Assert.assertEquals(expected,actual);
+    }
 }

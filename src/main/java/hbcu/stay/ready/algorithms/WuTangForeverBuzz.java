@@ -19,7 +19,6 @@ public class WuTangForeverBuzz {
             return "Wu";
         if(n%5 == 0)
             return "Tang";
-
         else
             return Integer.toString(n);
     }
